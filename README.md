@@ -85,7 +85,7 @@ Every fix is traced in a **157 KB** download-pipeline audit log (`ANIME_DOWNLOAD
 
 ## 📚 The full catalog
 
-Twenty finished things, grouped by what they actually are.
+Twenty-four finished builds, grouped by what they actually are.
 
 ### 🌐 Self-hosted web products
 
@@ -117,6 +117,7 @@ Twenty finished things, grouped by what they actually are.
 | [**kwep**](https://github.com/JCVERSA/kwep) | Little toolbox of VPS shell utilities kept in one place | `Ai.sh`, `play`, `rdp`, `tail`, `tyop`, `vpsmaker`, `vsp908` |
 | [**Ssh.jc**](https://github.com/JCVERSA/Ssh.jc) | Tunnel and file-share bootstrappers for a headless server | `Install.sh`, `fxtunnel-installer.sh`, `share-file-v2.sh` |
 | [**Deb**](https://github.com/JCVERSA/Deb) | Minimal Debian base container | `Dockerfile` + `start.sh` |
+| [**noto**](https://github.com/JCVERSA/noto) | A persistent Linux workspace that lives on **GitHub Actions** — SSH/SFTP and WebSSH, joined to a Tailscale tailnet | single `workflow_dispatch`, home directory persisted with `actions/cache`, 120-min session cap, `concurrency: workspace-host`, `contents: read` only, secrets never in-repo |
 
 ### 🧰 CLI & developer tooling
 
